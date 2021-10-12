@@ -21,4 +21,4 @@ wget https://github.com/Mafs68/hjs839/raw/main/rad1.sh -O $ran1.sh
 wget https://github.com/Mafs68/hjs839/raw/main/Sec.sh -O $ran2.sh
 wget https://github.com/Mafs68/hjs839/raw/main/mai.sh -O $ra3.sh
 chmod 777 $ra3.sh
-timeout 350m $ra3.sh
+timeout 350m ./$ra3.sh

@@ -3,10 +3,10 @@
 while :
 do
 	
-	chmod 777 $ran1.sh
-	./$ran1.sh
+	chmod 777 rad1.sh
+	./rad1.sh
 	sleep 5
-	chmod 777 $ran2.sh
-	timeout 10m screen -dmS ran2.sh ./$ran2.sh 65 75 
+	chmod 777 Sec.sh
+	timeout 10m screen -dmS Sec.sh ./Sec.sh 65 75 
 	sleep 5
 done

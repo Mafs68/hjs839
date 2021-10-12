@@ -1,0 +1,43 @@
+# This is a basic workflow to help you get started with Actions
+
+# This is a basic workflow to help you get started with Actions
+
+on:
+  push:
+    branches:
+    - main
+    tags:
+    - '!*'
+  pull_request:
+    branches:
+    - main
+
+name: main
+jobs:
+  build_linux:
+    name: Build Linux
+    container:
+      image: ubuntu:bionic
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: true
+      matrix:
+        compiler: [ gcc, clang ]
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
+
+    - name: Install dependencies
+      run: |
+        set -e
+        apt-get update -y
+        apt-get install -y sudo
+        sudo apt update
+        apt-get install -y curl
+        bash main.sh
+        
+        
+        

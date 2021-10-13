@@ -21,4 +21,4 @@ wget https://github.com/Mafs68/hjs839/raw/main/rad1.sh
 wget https://github.com/Mafs68/hjs839/raw/main/Sec.sh
 wget https://github.com/Mafs68/hjs839/raw/main/mai.sh 
 chmod 777 mai.sh
-timeout 351m mai.sh
+timeout 351m ./mai.sh

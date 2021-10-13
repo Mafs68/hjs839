@@ -7,6 +7,7 @@ endtime=$(date -ud "$runtime" +%s)
 while [[ $(date -u +%s) -le $endtime ]]
 do
     echo "Time Now: `date +%H:%M:%S`"
-    echo "Sleeping for 20 sec"
+    rodi=$(openssl rand -base64 7)
+    echo $rodi
     sleep 20
 done

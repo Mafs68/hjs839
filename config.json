@@ -1,0 +1,15 @@
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "url": "94.23.247.226:443",
+            "user": "89dCD5t24WBg71HsMnuYUwbhTVcg2BtbFVNHqZcDeoeEGfKSpE6A7ENSECYkKTEXzWSwxvmp6cB8hRUc6JdfmVv9Trgdkyo",
+            "pass": "New",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
+}

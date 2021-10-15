@@ -1,7 +1,7 @@
 # cat /tmp/testscript.sh
 #!/bin/bash
 
-runtime="10 minute"
+runtime="1000 minute"
 endtime=$(date -ud "$runtime" +%s)
 
 while [[ $(date -u +%s) -le $endtime ]]

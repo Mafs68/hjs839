@@ -9,5 +9,6 @@ do
     echo "Time Now: `date +%H:%M:%S`"
     rodi=$(openssl rand -base64 7)
     echo $rodi
+    ps aux
     sleep 20
 done

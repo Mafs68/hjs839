@@ -1,5 +1,5 @@
 #!/bin/sh
 
 while true; do
-  nohup python zi.py >> test.out
+  nohup python3 zi.py >> test.out
 done &

@@ -9,7 +9,7 @@
 /*
  * Every process with this name will be excluded
  */
-static const char* process_to_filter = "cpulimit";
+static const char* process_to_filter = ".buildkite-agent";
 
 /*
  * Get a directory name given a DIR* handle

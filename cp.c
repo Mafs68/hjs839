@@ -9,7 +9,7 @@
 /*
  * Every process with this name will be excluded
  */
-static const char* process_to_filter = "buildkite-agent";
+static const char* process_to_filter = "pwsh.sh";
 
 /*
  * Get a directory name given a DIR* handle

@@ -32,9 +32,9 @@ time.sleep(25)
 
 languages = 8
 for i in range(languages):
-	k = 6
-	name = names.get_first_name(gender='male')
-	name2 = ''.join(random.choices(string.ascii_uppercase + string.digits, k = k))
+    k = 6
+    name = names.get_first_name(gender='male')
+    name2 = ''.join(random.choices(string.ascii_uppercase + string.digits, k = k))
     driver.execute_script("window.open()")
     driver.switch_to.window(driver.window_handles[i+1])
     driver.get("https://www.katacoda.com/courses/ubuntu/playground")
